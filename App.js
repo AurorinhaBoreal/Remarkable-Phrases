@@ -1,31 +1,26 @@
-import { StyleSheet, Text, View, Pressable } from 'react-native';
-import { useState } from "react";
-import DayPhrase from './components/DayPhrase';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from 'screens/HomeScreen/HomeScreen';
+import AnimeScreen from 'screens/AnimeScreen/AnimeScreen';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
-  const [indexChange, setIndexChange] = useState(0)
+
   return (
-    <View style={styles.container}>
-      <Text>BATATA</Text>
-      <DayPhrase index={0} />
-      <Pressable style={styles.button} />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name='Home'
+          component={HomeScreen}
+          options={{title: "Home"}}
+        />
+        <Stack.Screen
+          name='AnimePhrase'
+          component={AnimeScreen}
+          title="AnimePhrases"
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#477',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontSize: "12px",
-  },
-  button: {
-    backgroundColor: "red",
-    width: 200,
-    height: 20,
-  }
-});
