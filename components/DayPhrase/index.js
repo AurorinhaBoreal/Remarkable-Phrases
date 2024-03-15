@@ -1,16 +1,17 @@
 import { View, Text, Image, StyleSheet, Button } from "react-native-web";
-import Sagara from "@assets/Sagara.webp"
+import * as info from "data/animeInfo.json"
 
 export default function DayPhrase(props) {
-    let userPhoto = [{Sagara},];
-    let userPhrase = ['a', 'b', 'c','"É melhor não subestimar os fracos de hoje, pois eles serão os fortes de amanhã."'];
-    let userName = ["Sagara Sanosuke"];
-    let userAnime = ["Samurai X"]
-
+    let abreBarra = "("
+    let fechaBarra = ")"
+    
     return(
         <View style={styles.userContainer}>
-            <Image style={styles.userPhoto} source={Sagara}/>
-            <Text style={styles.userPhrase}>{userPhrase[props.index]}</Text>
+            <Image style={styles.userPhoto} source={info.anime[props.index].photo}/>
+            <View style={styles.userInfoContainer}>
+                <Text style={styles.userPhrase}>{info.anime[props.index].phrase}</Text>
+                <Text style={styles.userInfo}>- {info.anime[props.index].name} {abreBarra}{info.anime[props.index].anime}{fechaBarra}</Text>
+            </View>
         </View>
     )
 }
@@ -18,6 +19,9 @@ export default function DayPhrase(props) {
 const styles = StyleSheet.create({
     userContainer: {
         display: "flex",
+        width: "300px",
+        borderRadius: 20,
+        padding: "5%",
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "rgba(0, 0, 0, 0.4)"
@@ -27,15 +31,22 @@ const styles = StyleSheet.create({
         height: "200px",
         borderRadius: 20,
     },
+    userInfoContainer: {
+        display: "flex",
+        width: 200,
+    },
     userPhrase: {
         marginTop: 10,
-        marginRight: 40,
-        marginLeft: 40,
+        textAlign: "center",
         fontSize: "16px",
         fontWeight: "bolder",
         color: "white",
     },
-    button: {
-        backgroundColor: "blue"
+    userInfo: {
+        marginTop: 6,
+        textAlign: "right",
+        fontSize: "12px",
+        fontWeight: "bolder",
+        color: "white",
     }
 });
