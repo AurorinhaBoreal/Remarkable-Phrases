@@ -24,7 +24,7 @@ export default function AnimeScreen({navigation}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#477',
+    backgroundColor: '#d0ff7e',
     alignItems: 'center',
     justifyContent: 'center',
   },
