@@ -13,7 +13,7 @@ export default function AnimeScreen({navigation}) {
 
   return (
     <View style={styles.container}>
-        <DayPhrase index={index} />
+        <DayPhrase index={index} category="anime"/>
         <Pressable style={styles.button} onPress={indexChange}>
             <Text style={styles.buttonText}>Nova Frase</Text>
         </Pressable>
