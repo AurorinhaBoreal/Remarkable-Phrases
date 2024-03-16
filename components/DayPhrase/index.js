@@ -12,22 +12,25 @@ export default function DayPhrase(props) {
 
     switch (props.category) {
         case "anime":
-            anime = {
+            media = {
                 photo: info.anime[props.index].photo, 
                 phrase: info.anime[props.index].phrase,
                 name: info.anime[props.index].name,
                 other: info.anime[props.index].anime}
             break;
         case "movie":
-            anime = {
+            media = {
                 photo: info.movie[props.index].photo, 
                 phrase: info.movie[props.index].phrase,
                 name: info.movie[props.index].name,
                 other: info.movie[props.index].year}
-            console.log("Teu nome!")
             break;
         case "serie":
-            console.log("A CORUJA TEM CASA :0")
+            media = {
+                photo: info.serie[props.index].photo, 
+                phrase: info.serie[props.index].phrase,
+                name: info.serie[props.index].name,
+                other: info.serie[props.index].seasons}
             break;
         case "philosopher":
             console.log("Não sei React Native")
@@ -39,10 +42,10 @@ export default function DayPhrase(props) {
 
     return(
         <View style={styles.userContainer}>
-            <Image style={styles.userPhoto} source={anime.photo}/>
+            <Image style={styles.userPhoto} source={media.photo}/>
             <View style={styles.userInfoContainer}>
-                <Text style={styles.userPhrase}>{anime.phrase}</Text>
-                <Text style={styles.userInfo}>- {anime.name} {abreBarra}{anime.other}{fechaBarra}</Text>
+                <Text style={styles.userPhrase}>{media.phrase}</Text>
+                <Text style={styles.userInfo}>- {media.name} {abreBarra}{media.other}{fechaBarra}</Text>
             </View>
         </View>
     )

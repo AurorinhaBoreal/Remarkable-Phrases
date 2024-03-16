@@ -125,64 +125,64 @@
     ],
     "serie":[
         {
-            "photo": "./assets/anime/PLL.webp",
+            "photo": "./assets/serie/PLL.jpg",
             "phrase": "'Acho que a única razão para sermos tão apegados as memórias, é que elas não mudam, mesmo que as pessoas tenham mudado.'",
             "name": "Pretty Little Liars",
-            "anime": "Samurai X"
+            "seasons": "7 Temporadas"
         },
         {
-            "photo": "./assets/anime/Kaneki.webp",
-            "phrase": "'Eu não sou aquele que está errado, o que está errado é esse mundo.'",
-            "name": "Ken Kaneki",
-            "anime": "Tokyo Ghoul"
+            "photo": "./assets/serie/L.webp",
+            "phrase": "'Ninguém mal é totalmente mal, e ninguém bom totalmente bom.'",
+            "name": "Loki",
+            "seasons": "2 Temporadas"
         },
         {
-            "photo": "./assets/anime/Alucard.webp",
-            "phrase": "'Os humanos são os únicos seres que se diveretem com o sofrimento dos semelhantes.'",
-            "name": "Alucard",
-            "anime": "Hellsing"
+            "photo": "./assets/serie/BB.jpg",
+            "phrase": "'Você precisa parar de pensar na escuridão que o precede. O que passou, passou.'",
+            "name": "Breaking Bad",
+            "seasons": "5 Temporadas"
         },
         {
-            "photo": "./assets/anime/Lelouch.jpg",
-            "phrase": "'O mundo não pode ser mudado apenas com palavras bonitas.'",
-            "name": "Lelouch Lamperouge",
-            "anime": "Akame ga Kill"
+            "photo": "./assets/serie/F.webp",
+            "phrase": "'Bem-vinda ao mundo real. É uma droga. Você vai amar.'",
+            "name": "Friends",
+            "seasons": "10 Temporadas"
         },
         {
-            "photo": "./assets/anime/Zoro.jpg",
-            "phrase": "'Se você não pode mudar o seu destino, mude sua atitude.'",
-            "name": "Roronoa Zoro",
-            "anime": "One Piece"
+            "photo": "./assets/serie/AI.webp",
+            "phrase": "'Até aquele momento eu não tinha idéia do quanto podia doer perder algo que nunca se teve realmente.'",
+            "name": "Anos Incriveis",
+            "seasons": "6 Temporadas"
         },
         {
-            "photo": "./assets/anime/Sakura.jpg",
-            "phrase": "'As coisas mais importantes não estão escritas num livro, é preciso aprendê-las vivenciando-as sozinho.'",
-            "name": "Sakura Haruno",
-            "anime": "Naruto Shippuden"
+            "photo": "./assets/serie/OitNB.webp",
+            "phrase": "'A vida muitas vezes fica bagunçada. Você precisa aprender que você não pode consertá-la sempre.'",
+            "name": "Orange is the New Black",
+            "seasons": "7 Temporadas"
         },
         {
-            "photo": "./assets/anime/Edward.webp",
-            "phrase": "'Não há tal coisa como a perfeição. Este mundo não é perfeito e, por isso, ele é lindo.'",
-            "name": "Edward Elric",
-            "anime": "Fullmetal Alchemist"
+            "photo": "./assets/serie/AwaE.webp",
+            "phrase": "'Ninguém além de você pode determinar o seu valor.'",
+            "name": "Anne with an E",
+            "seasons": "3 Temporadas"
         },
         {
-            "photo": "./assets/anime/AllMight.avif",
-            "phrase": "'Não importa se você ganhou ou perdeu, você precisa olhar pra trás, refletir sobre essa experiência e seguir em frente com a sua vida.'",
-            "name": "All Might",
-            "anime": "My Hero Academia"
+            "photo": "./assets/serie/tF.webp",
+            "phrase": "'Às vezes, grandes possibilidades estão na nossa frente e não vemos porque escolhemos não ver.'",
+            "name": "The Flash",
+            "seasons": "9 Temporadas"
         },
         {
-            "photo": "./assets/anime/Misaki.jpg",
-            "phrase": "'Não acredite no que eu aparento ser. Acredite naquilo que eu sou. Conheça-me.'",
-            "name": "Misaki Mei",
-            "anime": "Another"
+            "photo": "./assets/serie/V.jpeg",
+            "phrase": "'Nem todo dia é dia de ser feliz, em alguns você terá apenas que ser forte.'",
+            "name": "Vikings",
+            "seasons": "6 Temporadas"
         },
         {
-            "photo": "./assets/anime/Byakuya.webp",
-            "phrase": "'Não sou arrogante, arrogante é você que pensa estar no mesmo nivel que eu.'",
-            "name": "Byakuya Kushiki",
-            "anime": "Bleach"
+            "photo": "./assets/serie/HoC.webp",
+            "phrase": "'A democracia é superestimada...'",
+            "name": "House of Cards",
+            "seasons": "6 Temporadas"
         }
     ],
     "philosopher":[
