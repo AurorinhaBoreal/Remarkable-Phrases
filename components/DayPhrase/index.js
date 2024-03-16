@@ -33,10 +33,14 @@ export default function DayPhrase(props) {
                 other: info.serie[props.index].seasons}
             break;
         case "philosopher":
-            console.log("Não sei React Native")
+            media = {
+                photo: info.philosopher[props.index].photo, 
+                phrase: info.philosopher[props.index].phrase,
+                name: info.philosopher[props.index].name,
+                other: info.philosopher[props.index].era}
             break;
         default:
-            console.log("Saiuuuu")
+            console.log("Categoria Inválida")
             break;
     }
 

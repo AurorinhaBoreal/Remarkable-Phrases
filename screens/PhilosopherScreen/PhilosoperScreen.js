@@ -3,7 +3,7 @@ import { View, Pressable, Text, StyleSheet } from 'react-native'
 import { useState } from "react";
 import DayPhrase from '@components/DayPhrase';
 
-export default function SerieScreen() {
+export default function PhilosopherScreen() {
 
     const [index, setIndex] = useState(0)
 
@@ -13,7 +13,7 @@ export default function SerieScreen() {
 
   return (
     <View style={styles.container}>
-        <DayPhrase index={index} category="serie"/>
+        <DayPhrase index={index} category="philosopher"/>
         <Pressable style={styles.button} onPress={indexChange}>
             <Text style={styles.buttonText}>Nova Frase</Text>
         </Pressable>
@@ -24,7 +24,7 @@ export default function SerieScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#faf359',
+    backgroundColor: '#faa059',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -32,9 +32,9 @@ const styles = StyleSheet.create({
     fontSize: "12px",
   },
   button: {
-    backgroundColor: "#fffcb7",
+    backgroundColor: "#ffdbb7",
     margin: "4%",
-    border: "3px solid #968f00",
+    border: "3px solid #965400",
     borderRadius: 20,
     width: 150,
     height: 30,

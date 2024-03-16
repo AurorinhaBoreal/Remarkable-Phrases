@@ -187,64 +187,64 @@
     ],
     "philosopher":[
         {
-            "photo": "./assets/anime/Sagara.webp",
-            "phrase": "'É melhor não subestimar os fracos de hoje, pois eles serão os fortes de amanhã.'",
-            "name": "Sagara Sanosuke",
-            "anime": "Samurai X"
+            "photo": "./assets/philosopher/H.jpg",
+            "phrase": "'Ninguém pode entrar duas vezes no mesmo rio, pois quando nele se entra novamente, não se encontra as mesmas águas, e o próprio ser já se modificou.'",
+            "name": "Heráclito",
+            "era": "500 d. C."
         },
         {
-            "photo": "./assets/anime/Kaneki.webp",
-            "phrase": "'Eu não sou aquele que está errado, o que está errado é esse mundo.'",
-            "name": "Ken Kaneki",
-            "anime": "Tokyo Ghoul"
+            "photo": "./assets/philosopher/A.webp",
+            "phrase": "'A dúvida é o principio da sabedoria.'",
+            "name": "Aristóteles",
+            "era": "300 a. C."
         },
         {
-            "photo": "./assets/anime/Alucard.webp",
-            "phrase": "'Os humanos são os únicos seres que se diveretem com o sofrimento dos semelhantes.'",
-            "name": "Alucard",
-            "anime": "Hellsing"
+            "photo": "./assets/philosopher/C.webp",
+            "phrase": "'A ignorância é a maior enfermidade do gênero humano.'",
+            "name": "Cícero",
+            "era": "50 a. C."
         },
         {
-            "photo": "./assets/anime/Lelouch.jpg",
-            "phrase": "'O mundo não pode ser mudado apenas com palavras bonitas.'",
-            "name": "Lelouch Lamperouge",
-            "anime": "Akame ga Kill"
+            "photo": "./assets/philosopher/FN.jpg",
+            "phrase": "'Nunca é alto o preço a pagar pelo privilégio de pertencer a sí mesmo...'",
+            "name": "Friedrich Nietzsche",
+            "era": "1800 d. C."   
         },
         {
-            "photo": "./assets/anime/Zoro.jpg",
-            "phrase": "'Se você não pode mudar o seu destino, mude sua atitude.'",
-            "name": "Roronoa Zoro",
-            "anime": "One Piece"
+            "photo": "./assets/philosopher/S.jpg",
+            "phrase": "'Sábio é aquele que conhece os limites da própria ignorância.'",
+            "name": "Sócrates",
+            "era": "300 a. C."
         },
         {
-            "photo": "./assets/anime/Sakura.jpg",
-            "phrase": "'As coisas mais importantes não estão escritas num livro, é preciso aprendê-las vivenciando-as sozinho.'",
-            "name": "Sakura Haruno",
-            "anime": "Naruto Shippuden"
+            "photo": "./assets/philosopher/P.webp",
+            "phrase": "'Quem comete uma injustiça é sempre mais infeliz que o injustiçado.'",
+            "name": "Platão",
+            "era": "300 a. C."      
         },
         {
-            "photo": "./assets/anime/Edward.webp",
-            "phrase": "'Não há tal coisa como a perfeição. Este mundo não é perfeito e, por isso, ele é lindo.'",
-            "name": "Edward Elric",
-            "anime": "Fullmetal Alchemist"
+            "photo": "./assets/philosopher/GG.webp",
+            "phrase": "'As coisas estão unidas por laços invisíveis. Não se pode colher uma flor sem perturbar uma estrela.'",
+            "name": "Galileu Galilei",
+            "era": "1500 d. C."
         },
         {
-            "photo": "./assets/anime/AllMight.avif",
-            "phrase": "'Não importa se você ganhou ou perdeu, você precisa olhar pra trás, refletir sobre essa experiência e seguir em frente com a sua vida.'",
-            "name": "All Might",
-            "anime": "My Hero Academia"
+            "photo": "./assets/philosopher/JPS.jpg",
+            "phrase": "'O inferno são os outros.'",
+            "name": "Jean-Paul Sartre",
+            "era": "1900 d. C."      
         },
         {
-            "photo": "./assets/anime/Misaki.jpg",
-            "phrase": "'Não acredite no que eu aparento ser. Acredite naquilo que eu sou. Conheça-me.'",
-            "name": "Misaki Mei",
-            "anime": "Another"
+            "photo": "./assets/philosopher/C.png",
+            "phrase": "'Se quiser ter prosperidade por um ano, cultive grãos. Por dez cultive árvores. Mas para ter sucesso por 100 anos cultive gente.'",
+            "name": "Confúcio",
+            "era": "400 a. C."  
         },
         {
-            "photo": "./assets/anime/Byakuya.webp",
-            "phrase": "'Não sou arrogante, arrogante é você que pensa estar no mesmo nivel que eu.'",
-            "name": "Byakuya Kushiki",
-            "anime": "Bleach"
+            "photo": "./assets/philosopher/",
+            "phrase": "'Não existem métodos fáceis para resolver problemas difíceis.'",
+            "name": "René Descartes",
+            "era": "1600 d. C."  
         }
     ]
 }
