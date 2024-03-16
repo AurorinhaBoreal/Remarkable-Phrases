@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, View, Text } from 'react-native'
 import HomeButton from '../../components/HomeButton'
+
 export default function HomeScreen() {
 
     return (
@@ -41,7 +42,7 @@ const styles = StyleSheet.create({
     title: {
         marginTop: 50,
         fontSize: 30,
-        fontFamily: "MontSerrat_Regular",
+        fontFamily: "roboto",
         color: "white",
         textDecorationLine: "underline"
     },

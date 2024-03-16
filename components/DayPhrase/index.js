@@ -12,7 +12,6 @@ export default function DayPhrase(props) {
 
     switch (props.category) {
         case "anime":
-            console.log("SASKEEEEEEEEEEEEEEEEE")
             anime = {
                 photo: info.anime[props.index].photo, 
                 phrase: info.anime[props.index].phrase,
@@ -20,6 +19,11 @@ export default function DayPhrase(props) {
                 other: info.anime[props.index].anime}
             break;
         case "movie":
+            anime = {
+                photo: info.movie[props.index].photo, 
+                phrase: info.movie[props.index].phrase,
+                name: info.movie[props.index].name,
+                other: info.movie[props.index].year}
             console.log("Teu nome!")
             break;
         case "serie":
@@ -55,13 +59,14 @@ const styles = StyleSheet.create({
         backgroundColor: "rgba(0, 0, 0, 0.4)"
     },
     userPhoto: {
-        width: "200px",
+        width: "250px",
         height: "200px",
         borderRadius: 20,
+        border: "3px solid #222"
     },
     userInfoContainer: {
         display: "flex",
-        width: 200,
+        width: 250,
     },
     userPhrase: {
         marginTop: 10,

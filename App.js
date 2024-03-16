@@ -2,6 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from 'screens/HomeScreen/HomeScreen';
 import AnimeScreen from 'screens/AnimeScreen/AnimeScreen';
+import MovieScreen from 'screens/MovieScreen/MovieScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,12 +21,12 @@ export default function App() {
           component={AnimeScreen}
           title="AnimePhrases"
         />
-        {/* <Stack.Screen
+        <Stack.Screen
           name='MoviePhrase'
           component={MovieScreen}
           title="MoviePhrases"
         />
-        <Stack.Screen
+        {/* <Stack.Screen
           name='SeriePhrase'
           component={SerieScreen}
           title="SeriePhrases"

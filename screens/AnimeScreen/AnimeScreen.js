@@ -1,9 +1,9 @@
 import React from 'react'
-import { View, Image, Pressable, Text, StyleSheet } from 'react-native'
+import { View, Pressable, Text, StyleSheet } from 'react-native'
 import { useState } from "react";
 import DayPhrase from '@components/DayPhrase';
 
-export default function AnimeScreen({navigation}) {
+export default function AnimeScreen() {
 
     const [index, setIndex] = useState(0)
 
@@ -24,7 +24,7 @@ export default function AnimeScreen({navigation}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#d0ff7e',
+    backgroundColor: '#98fa59',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -32,9 +32,9 @@ const styles = StyleSheet.create({
     fontSize: "12px",
   },
   button: {
-    backgroundColor: "#4DD",
+    backgroundColor: "#ccffb7",
     margin: "4%",
-    border: "3px solid #044",
+    border: "3px solid #429600",
     borderRadius: 20,
     width: 150,
     height: 30,
